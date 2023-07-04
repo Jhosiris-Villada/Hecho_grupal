@@ -27,7 +27,7 @@ body {
 
   /* Barra de navegación */
   .navigation-bar {
-    background-color: #ccffcc;
+    background-color: #b2c1b4;
     padding: 10px;
   }
   
@@ -88,6 +88,13 @@ body {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .title_name_buttons{
+    margin-top: 130%;
+    text-align: center;
   }
   
   .round-button {
@@ -114,11 +121,13 @@ body {
     margin-top: 10px;
     text-align: center;
   }
-  
-  /* estilo para el carrusel */
-  /* Estilos específicos para el carrusel de imágenes */
-  /* Estilos específicos para el carrusel de imágenes */
+
 /* ... Estilos del primer carrusel ... */
+
+.container_slider{
+  margin-top: 5%;
+}
+
 .carousel-title {
   text-align: center;
   text-transform: uppercase;
@@ -201,6 +210,10 @@ body {
     justify-content: center;
     align-items: center;
   }
+
+  .closing-bar li{
+    padding-right: 5%;
+  }
   
   /* Estilos específicos de las subpáginas */
 
@@ -225,6 +238,30 @@ body {
 /* Otros estilos según sea necesario */
 
   /* Estilos específicos para acerca-de-nosotros.html */
+
+  #div_mi{
+    width: 100%;
+    display:inline-flex
+  }
+
+  #div_p_mi{
+    width: 50%;
+  }
+
+  #div_img_mi{
+    width: 50%;
+    text-align: center;
+  }
+
+  #div_p_vi{
+    width: 50%;
+    margin-top: 10%;
+  }
+
+  #div_img_vi{
+    width: 50%;
+  }
+
   /* Estilos específicos para sobre-nosotros.html */
   /* Estilos específicos para reporte-mascota-perdida.html */
   /* Estilos específicos para el formulario de reporte de mascota perdida */
