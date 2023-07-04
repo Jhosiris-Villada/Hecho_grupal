@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iniciar Sesión</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navigation-bar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="acerca-de-nosotros.html">Acerca de nosotros</a></li>
+      <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+      <li class="dropdown">
+        <a href="#" id="user-button">Usuario</a>
+        <div class="dropdown-content">
+          <a href="iniciar-sesion.html">Iniciar sesión</a>
+          <a href="registrarse.html">Registrarse</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Iniciar Sesión</h1>
+    <h2>Inicia sesión para acceder a tu cuenta</h2>
+  </header>
+
+  <main>
+    <form class="login-form">
+      <div class="form-group">
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+      </div>
+      <div class="form-group">
+        <label for="contrasena">Contraseña:</label>
+        <input type="password" id="contrasena" name="contrasena" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="login-button">Iniciar Sesión</button>
+      </div>
+    </form>
+  </main>
+
+  <nav class="closing-bar">
+    <ul>
+      <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+      <li><a href="terminos-uso.html">Términos de Uso</a></li>
+    </ul>
+  </nav>
+
+  <script src="script.js"></script>
+</body>
+</html>

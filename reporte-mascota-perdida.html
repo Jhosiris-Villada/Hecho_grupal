@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reporte de Mascota Perdida</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navigation-bar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="acerca-de-nosotros.html">Acerca de nosotros</a></li>
+      <li><a href="sobre-nosotros.html">Sobre nosotros</a></li>
+      <li class="dropdown">
+        <a href="#" id="user-button"><img src="user-icon.png" alt="Usuario"></a>
+        <div class="dropdown-content">
+          <a href="iniciar-sesion.html">Iniciar sesión</a>
+          <a href="registrarse.html">Registrarse</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <header>
+    <h1>Reporta una Mascota Perdida</h1>
+  </header>
+
+  <main>
+    <form class="report-form">
+      <div class="form-group">
+        <label for="nombre">Nombre de la Mascota:</label>
+        <input type="text" id="nombre" name="nombre" required>
+      </div>
+      <div class="form-group">
+        <label for="color">Color de Pelaje:</label>
+        <input type="text" id="color" name="color" required>
+      </div>
+      <div class="form-group">
+        <label for="tamano">Tamaño:</label>
+        <input type="text" id="tamano" name="tamano" required>
+      </div>
+      <div class="form-group">
+        <label for="caracteristicas">Otras Características Físicas:</label>
+        <input type="text" id="caracteristicas" name="caracteristicas" required>
+      </div>
+      <div class="form-group">
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza" name="raza" required>
+      </div>
+      <div class="form-group">
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad" name="edad" required>
+      </div>
+      <div class="form-group">
+        <label for="sexo">Sexo:</label>
+        <input type="text" id="sexo" name="sexo" required>
+      </div>
+      <div class="form-group">
+        <label for="fecha">Fecha de Desaparición:</label>
+        <input type="text" id="fecha" name="fecha" required>
+      </div>
+      <div class="form-group">
+        <label for="lugar">Lugar de Desaparición:</label>
+        <input type="text" id="lugar" name="lugar" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Correo Electrónico de Contacto:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono1">Teléfono de Contacto #1:</label>
+        <input type="tel" id="telefono1" name="telefono1" required>
+      </div>
+      <div class="form-group">
+        <label for="telefono2">Teléfono de Contacto #2:</label>
+        <input type="tel" id="telefono2" name="telefono2" required>
+      </div>
+      <div class="form-group">
+        <label for="foto">Foto de la Mascota:</label>
+        <input type="file" id="foto" name="foto" required>
+      </div>
+      <div class="form-group">
+        <button type="submit" class="report-button">Reportar</button>
+      </div>
+    </form>
+  </main>
+
+  <nav class="closing-bar">
+    <ul>
+      <li><a href="politica-privacidad.html">Política de Privacidad</a></li>
+      <li><a href="terminos-uso.html">Términos de Uso</a></li>
+    </ul>
+  </nav>
+</body>
+</html>
